@@ -1,6 +1,7 @@
 
 import Hamburger from './Hamburger'
-import Left from './left'
+import Left from './Left'
+
 import Middle from './Middle'
 
 
@@ -11,7 +12,7 @@ export default function Weather(){
        
            <div className="main-container">
              <Hamburger id="hamburger-component" />
-               <Left />
+              <Left/>
                <Middle  />
               
            </div>
