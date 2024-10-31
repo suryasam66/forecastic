@@ -24,6 +24,8 @@ function App() {
         <Route path="/calender" element={<Calender />}/>
         <Route path="/locations" element={<Locations/>}/>
         <Route path="/settings" element={<Settings/>}/>
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </Router>
   )
