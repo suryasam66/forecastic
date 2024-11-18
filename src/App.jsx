@@ -10,7 +10,7 @@ import Locations from './components/Menu/Locations';
 import Settings from './components/Menu/Settings';
 
 
-function App() {
+export default function App() {
  
 
   return (
@@ -31,4 +31,4 @@ function App() {
   )
 }
 
-export default App
+
