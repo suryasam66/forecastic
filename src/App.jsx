@@ -14,7 +14,11 @@ export default function App() {
  
 
   return (
-    
+
+    <>
+      <h1>Surya</h1>
+    </>
+    /*
     <Router>
       <Routes>
         <Route path="/" element= { <Home/>}/>
@@ -27,7 +31,7 @@ export default function App() {
         
 
       </Routes>
-    </Router>
+    </Router>   */
   )
 }
 
