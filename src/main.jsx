@@ -6,7 +6,6 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
 
- <App/>
-
-
+ /*<App/> */
+ <h1>Surya</h1>
 )
