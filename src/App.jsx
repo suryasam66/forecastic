@@ -1,13 +1,13 @@
 
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import {  Route, Routes, BrowserRouter } from 'react-router-dom';
 import './App.css'
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Weather from './components/Weather/Weather';
-import Analytics from './components/Menu/Analytics';
-import Calender from './components/Menu/Calender';
-import Locations from './components/Menu/Locations';
-import Settings from './components/Menu/Settings';
+import Home from './components/Home/Home.jsx';
+import About from './components/About/About.jsx';
+import Weather from './components/Weather/Weather.jsx';
+import Analytics from './components/Menu/Analytics.jsx';
+import Calender from './components/Menu/Calender.jsx';
+import Locations from './components/Menu/Locations.jsx';
+import Settings from './components/Menu/Settings.jsx';
 
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
    
     <BrowserRouter>
       <Routes>
-        <Route path="/" element= { <Home/>}/>
+        <Route path="/" element= {<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/weather" element={<Weather/>}/>
         <Route path="/analytics" element={<Analytics/>}/>
