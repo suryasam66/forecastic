@@ -8,7 +8,7 @@ import Analytics from './components/Menu/Analytics.jsx';
 import Calender from './components/Menu/Calender.jsx';
 import Locations from './components/Menu/Locations.jsx';
 import Settings from './components/Menu/Settings.jsx';
-
+import Select from 'react-select';
 
 export default function App() {
  
